@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#header
+{
+    width: 100%;
+    top: 0; 
+	position: fixed; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    top: 0;
+    background-color: white;
+    display: inline-block;
+}
+
+#img-logo
+{
+    display: flex;
+    margin: 0px 0px 0px 10px;
+}
+
+#header-img
+{
+    height: 70px;
+}
+
+#nav-bar
+{
+    float: right;
+    padding-right: 20px;
+    
+    
+}
+
+nav a
+{
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+nav a:hover
+{
+    background: #0b76a6;
+    
+}
+
+#form
+{
+    padding-top: 100px;
+    text-align: center;
+    
+
+}
+
+input
+{
+    height: auto;
+}
+
+#submit
+{
+    background-color: yellow;
+    border: 0ch;
+    border-radius: 1%;
+    width: 150px;
+    height: 25px;
+    font-weight: 1000;
+    font-size: 15px;
+}
+
+#Opciones
+{
+    
+    
+    padding-left: 100px;
+    padding-right: 100px;
+    
+
+}
+
+#texto-Opciones
+{
+    padding-left: 100px;
+}
+
+
+
+#Opciones-img
+{
+    width: 50px;
+    height: 50px;
+    float: left;
+
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+}
+
+#productos
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#cuadroc
+{
+    
+    width: 300px; 
+    height: 250px; 
+    border: 3px solid rgb(139, 128, 128);
+   
+    text-align: center;
+    
+}
+
+#ProductoTit
+{
+    background-color: rgb(246, 227, 227);
+    padding: 20PX;
+}
+
+#Btn-Select
+{
+    background-color: yellow;
+    border: 0ch;
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    
+}
+
+#footer
+{
+    background-color: rgb(246, 227, 227);
+    margin-top: 50px;
+    height: 80px;
+    
+    margin-left: 250px;
+    margin-right: 250px;
+    
+}
+
+#nav-barFooter{
+    float: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    
+}
+
+#Copyright
+{
+    
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+@media (max-width: 546px) {
+   
+    #Opciones-img
+    {
+    width: 0px;
+    height: 0px;
+    
+    }
+
+    #Opciones
+    {
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    
+
+    #header
+    {
+        display: grid;
+        justify-content: center;
+        
+    }
+    #nav-bar{
+
+        display: grid;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+   
+}
+
+@media (max-width: 796px) {
+    #productos
+    {
+    display: grid;
+    column-gap: 100px;
+    
+    }
+}
